@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  width: 100%;
+  height: 15vh;
+  background-color: #eee;
+  display: flex;
+  column-gap: 20%;
+  align-items: center;
+  box-shadow: 5px 1px 5px black;
+}
+
+.logo{
+  margin:0 20px;
+  font-size: 2rem;
+}
+
+ul{
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  font-size: 20px;
+  height: 100%;
+  
+  
+}
+
+ul li{
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: center;
+}
+
+ul li:hover{
+  background-color: blue;
+  
+}
+
+
+/* Main Style */
+.main{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  /* background-color: red; */
+}
+
+
+.left{
+  width: 60%;
+  height: 100%;
+ display: flex;
+ gap:50px;
+ flex-wrap: wrap;
+ overflow-y: scroll;
+ padding: 20px; 
+ 
+}
+
+.left::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  width: 40%;
+  height: 50vh;
+  border-radius: 10px;
+ 
+  /* background-color: blue; */
+  
+}
+
+.imgDiv{
+  width: 100%;
+  height: 50%;
+}
+
+.imgDiv img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0 ;
+  
+}
+
+.content{
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px ;
+  
+}
+
+.content p{
+  font-size: 20px;
+}
+
+.content button{
+ padding: 10px 25px;
+ border-radius: 10px;
+ border: none ;
+ font-size: 20px;
+}
+
+
+/* add to cart sytles */
+.AddToCart{
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  /* margin: 20px 0px; */
+  border-radius: 10px;
+  
+
+}
+
+.AddToCart p{
+  text-align: center;
+}
+
+
+.AddToCart h2{
+  padding: 10px;
+}
+
+.AddToCart p{
+  padding: 20px 10px ;
+  /* text-align: center; */
+  font-weight: bold;
+  font-size: 18px;
+ 
+}
+
+
+.addItemDiv{
+  width: 100%;
+  height: 20%;
+  padding: 10px 0;
+}
+
+.imgAndname{
+  display: flex;
+  padding: 10px;
+}
+
+.addItemDiv img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.addItemDiv h3{
+ padding: 0px 10px;
+}
+
+
+
+.right{
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  overflow-y: scroll;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+.right::-webkit-scrollbar{
+  display: none;
+}
+
+
+.buttonDiv{
+  display: flex;
+}
+
+.buttonDiv button{
+  padding: 2px 20px;
+  font-size: 20px;
+}
+.buttonDiv p{
+  font-size: 20px ;
+
+}
